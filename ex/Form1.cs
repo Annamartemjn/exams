@@ -17,6 +17,9 @@ namespace ex
         {
             InitializeComponent();
             GenerateCaptcha();
+            label3.Enabled = false;
+            label4.Enabled = false;
+
         }
         private void GenerateCaptcha()
         {
@@ -65,6 +68,51 @@ namespace ex
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBox1_Enter(object sender, EventArgs e)
+        {
+            label3.Visible = false;
+        }
+
+        private void textBox1_Leave(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(textBox1.Text)) // Проверка, если текст в textBox пустой
+            {
+                label3.Visible = true; // Показать label, если textBox пуст
+            }
+            else
+            {
+                label3.Visible = false; // Скрыть label, если textBox не пуст
+            }
+
+        }
+
+        private void textBox2_Enter(object sender, EventArgs e)
+        {
+            label4.Visible = false;
+        }
+
+        private void textBox2_Leave(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(textBox2.Text)) // Проверка, если текст в textBox пустой
+            {
+                label4.Visible = true; // Показать label, если textBox пуст
+            }
+            else
+            {
+                label4.Visible = false; // Скрыть label, если textBox не пуст
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string login = "user";
+            string pass = "user";
+            if (login == textBox1.Text && pass == textBox2.Text)
+            {
+
+            }
         }
     }
 }
