@@ -8,3 +8,4 @@ C:\Users\dshma\OneDrive\Рабочий стол\exam\ex\ex\obj\Debug\ex.csproj.G
 C:\Users\dshma\OneDrive\Рабочий стол\exam\ex\ex\obj\Debug\ex.csproj.CoreCompileInputs.cache
 C:\Users\dshma\OneDrive\Рабочий стол\exam\ex\ex\obj\Debug\ex.exe
 C:\Users\dshma\OneDrive\Рабочий стол\exam\ex\ex\obj\Debug\ex.pdb
+C:\Users\dshma\OneDrive\Рабочий стол\exam\ex\ex\obj\Debug\ex.Form2.resources

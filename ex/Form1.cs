@@ -107,11 +107,17 @@ namespace ex
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string login = "user";
-            string pass = "user";
-            if (login == textBox1.Text && pass == textBox2.Text)
+            
+            if (Properties.Settings.Default.login == textBox1.Text && Properties.Settings.Default.pass == textBox2.Text)
             {
-
+                Form2 form = new Form2();
+                this.Hide();
+                form.ShowDialog();
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Неверный логин или пароль");
             }
         }
     }
