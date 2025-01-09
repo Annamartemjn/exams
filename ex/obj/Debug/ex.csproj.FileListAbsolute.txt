@@ -1,0 +1,10 @@
+C:\Users\dshma\OneDrive\Рабочий стол\exam\ex\ex\bin\Debug\ex.exe.config
+C:\Users\dshma\OneDrive\Рабочий стол\exam\ex\ex\bin\Debug\ex.exe
+C:\Users\dshma\OneDrive\Рабочий стол\exam\ex\ex\bin\Debug\ex.pdb
+C:\Users\dshma\OneDrive\Рабочий стол\exam\ex\ex\obj\Debug\ex.csproj.AssemblyReference.cache
+C:\Users\dshma\OneDrive\Рабочий стол\exam\ex\ex\obj\Debug\ex.Form1.resources
+C:\Users\dshma\OneDrive\Рабочий стол\exam\ex\ex\obj\Debug\ex.Properties.Resources.resources
+C:\Users\dshma\OneDrive\Рабочий стол\exam\ex\ex\obj\Debug\ex.csproj.GenerateResource.cache
+C:\Users\dshma\OneDrive\Рабочий стол\exam\ex\ex\obj\Debug\ex.csproj.CoreCompileInputs.cache
+C:\Users\dshma\OneDrive\Рабочий стол\exam\ex\ex\obj\Debug\ex.exe
+C:\Users\dshma\OneDrive\Рабочий стол\exam\ex\ex\obj\Debug\ex.pdb
